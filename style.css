@@ -29,6 +29,11 @@
       padding: 10px 20px;
     }
 
+    .nav-container a{
+      text-decoration: none;
+      color:#333;
+    }
+
     .nav-links a {
       margin-left: 15px;
       text-decoration: none;
@@ -66,6 +71,10 @@
       font-size: 1.1rem;
     }
 
+    li{
+      margin-bottom: 10px;
+    }
+
     .img-wrapper{
       display: flex;
       align-items: center;
@@ -75,11 +84,16 @@
       display:block;
       margin: 0 auto;
       max-width:100%;
+      border-radius: 30px;
     }
 
     .img-wrapper iframe{
       display:block;
       margin: 0 auto;
+    }
+
+    .proto-mockup{
+      border: 1px solid black;
     }
 
     .grid-2-col {
